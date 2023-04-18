@@ -1,0 +1,125 @@
+/* CSS for background image */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* CSS for welcome page container */
+.welcome-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CSS for employee details section */
+.employee-details-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+
+.employee-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('employee.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.employee-details {
+    flex: 1;
+}
+
+.employee-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.employee-job-title {
+    font-size: 18px;
+    color: #000000;
+}
+
+.employee-description {
+    font-size: 14px;
+    color: #000000;
+}
+
+/* CSS for frequent features buttons */
+.frequent-features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.frequent-feature-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* CSS for utility sections */
+.utility-sections-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.utility-section {
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.utility-section-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.utility-section-description {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.utility-section-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* CSS for employee summary */
+.employee-summary {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+  
+  
+  
